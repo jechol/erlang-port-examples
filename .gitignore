@@ -1,1 +1,4 @@
 extprg
+
+*.so
+*.a
