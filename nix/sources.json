@@ -1,0 +1,31 @@
+{
+    "jechol-nur": {
+        "sha256": "0v5fph0rb8bjibbfzapi8pq46hk5aysrmh6x32nxw4p807ix10l0",
+        "type": "tarball",
+        "url": "https://github.com/jechol/nur-packages/archive/v1.0.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "dd13098d01eaa6be68237e7e38f96782b0480755",
+        "sha256": "1cfjdbsn0219fjzam1k7nqzkz8fb1ypab50rhyj026qbklqq2kvq",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/dd13098d01eaa6be68237e7e38f96782b0480755.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "release-20.03",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e75598b70e5197c8ef3eefaf7f28b1f8b9669299",
+        "sha256": "0rmmp35ghjrisz29xdiczpvy2wp4hl8pyp1bpqb2zznf17yqins5",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/e75598b70e5197c8ef3eefaf7f28b1f8b9669299.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
