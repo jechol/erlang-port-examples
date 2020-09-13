@@ -35,5 +35,5 @@ loop(Port) ->
       stop ->
 	  Port ! {self(), close},
 	  receive {Port, closed} -> exit(normal) end;
-      {'EXIT', Port, Reason} -> exit(port_terminated)
+      {'EXIT', Port, _Reason} -> exit(port_terminated)
     end.
